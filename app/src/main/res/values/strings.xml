@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ChallengeWrkNPrgs</string>
+    <string name="title_1">Implementation 1</string>
+    <string name="title_2">Implementation 2</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="edit_text_hint_latitude">Latitude</string>
+    <string name="edit_text_hint_longitude">Longitude</string>
+    <string name="text_view_introduce_lat_lng">Introduce latitude and longitude</string>
+    <string name="text_view_get_closest_location">Get closest location from the parameters you introduced</string>
+    <string name="btn_getLocation">Get location</string>
+
+    <string-array name="suggestions">
+        <!--label-->
+        <item>Avram Iancu</item>
+        <item> Piata Unirii</item>
+        <item>Banffy Palace</item>
+        <item>Hotel Continental</item>
+        <item>Palatul de justitie</item>
+        <item>Teatrul National</item>
+        <item>Parcul Cetatuia</item>
+        <item>Casino</item>
+        <item>Cluj Arena</item>
+        <item>Botanic Garden</item>
+        <item>Cimitirul Central</item>
+
+    </string-array>
+</resources>

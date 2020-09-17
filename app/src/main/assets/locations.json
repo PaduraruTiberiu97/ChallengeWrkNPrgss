@@ -1,0 +1,82 @@
+{
+    "status": "ok",
+    "locations": [
+        {
+            "lat": 46.771310,
+            "lng": 23.596745,
+            "label": "Avram Iancu",
+            "address": "Piata Avram Iancu 18",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/7/79/Catedrala_Arhiepiscopiei_din_Cluj-Napoca.jpg"
+        },
+        {
+            "lat": 46.769357,
+            "lng": 23.589856,
+            "label": "Piata Unirii",
+            "address": "Piata Unirii 1",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/Biserica_romano-catolica_sf._Mihai.jpg"
+        },
+        {
+            "lat": 46.770736,
+            "lng": 23.590497,
+            "label": "Banffy Palace",
+            "address": "Strada Iuliu Maniu 30",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/2/20/Palais_Bánffy_%28Musée_des_Beaux-Arts%29_de_Cluj.jpg"
+        },
+        {
+            "lat": 46.768603,
+            "lng": 23.589757,
+            "label": "Hotel Continental",
+            "address": "Strada Napoca 7",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Palatul_Sebestyen_%26_Hotel_Continental.jpg/2560px-Palatul_Sebestyen_%26_Hotel_Continental.jpg"
+        },
+        {
+            "lat": 46.770957,
+            "lng": 23.598025,
+            "label": "Palatul de justitie",
+            "address": "Strada Stefan Cel Mare 1",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/1/16/Tribunalul_Cluj.jpg"
+        },
+        {
+            "lat": 46.770551,
+            "lng": 23.597447,
+            "label": "Teatrul National",
+            "address": "Teatrul National",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Cluj_-_National_Theater_%2822211863032%29.jpg/2880px-Cluj_-_National_Theater_%2822211863032%29.jpg"
+        },
+        {
+            "lat": 46.774850,
+            "lng": 23.581136,
+            "label": "Parcul Cetatuia",
+            "address": "Teatrul National"
+        },
+        {
+            "lat": 46.768939,
+            "lng": 23.577560,
+            "label": "Casino",
+            "address": "Parcul central",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Kaszinó_04.JPG"
+        },
+        {
+            "lat": 46.768660,
+            "lng": 23.572509,
+            "label": "Cluj Arena",
+            "address": "Cluj Arena",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Cluj-Napoca_Cluj_Arena_5.jpg"
+        },
+        {
+            "lat": 46.762347,
+            "lng": 23.587572,
+            "label": "Botanic Garden",
+            "address": "Alexandru Borza 15",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Sera_Gradina_Botanica.jpg/2880px-Sera_Gradina_Botanica.jpg"
+        },
+        
+        {
+            "latitude": 46.764225,
+            "longitude": 23.592028,
+            "label": "Cimitirul Central",
+            "address": "Cimitirul Central",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Sera_Gradina_Botanica.jpg/2880px-Sera_Gradina_Botanica.jpg"
+        }
+    ]
+}
