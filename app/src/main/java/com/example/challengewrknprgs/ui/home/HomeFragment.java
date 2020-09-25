@@ -116,19 +116,23 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View view) {
 
-                if (checkEmptyText()) {
-                    if (isNetworkConnected()) {
-                        txtLocationName.setText(getJsonToGson().getLocationList().get(getClosestLocation(Double.parseDouble(edtLat.getText().toString()), Double.parseDouble(edtLng.getText().toString()))).getLabel());
-                        txtLocationName.setVisibility(View.VISIBLE);
-                        Picasso.get().load(getJsonToGson().getLocationList().get(getClosestLocation(Double.parseDouble(edtLat.getText().toString()), Double.parseDouble(edtLng.getText().toString()))).getImage()).into(imgLocation);
-                        imgLocation.setVisibility(View.VISIBLE);
-                    } else {
-                        Toast.makeText(getContext(), "No internet connection.Image might not be displayed", Toast.LENGTH_SHORT).show();
-                        txtLocationName.setText(getJsonToGson().getLocationList().get(getClosestLocation(Double.parseDouble(edtLat.getText().toString()), Double.parseDouble(edtLng.getText().toString()))).getLabel());
-                        txtLocationName.setVisibility(View.VISIBLE);
-                        Picasso.get().load(getJsonToGson().getLocationList().get(getClosestLocation(Double.parseDouble(edtLat.getText().toString()), Double.parseDouble(edtLng.getText().toString()))).getImage()).into(imgLocation);
-                        imgLocation.setVisibility(View.VISIBLE);
+                try {
+                    if (checkEmptyText()) {
+                        if (isNetworkConnected()) {
+                            txtLocationName.setText(getJsonToGson().getLocationList().get(getClosestLocation(Double.parseDouble(edtLat.getText().toString()), Double.parseDouble(edtLng.getText().toString()))).getLabel());
+                            txtLocationName.setVisibility(View.VISIBLE);
+                            Picasso.get().load(getJsonToGson().getLocationList().get(getClosestLocation(Double.parseDouble(edtLat.getText().toString()), Double.parseDouble(edtLng.getText().toString()))).getImage()).into(imgLocation);
+                            imgLocation.setVisibility(View.VISIBLE);
+                        } else {
+                            Toast.makeText(getContext(), "No internet connection.Image might not be displayed", Toast.LENGTH_SHORT).show();
+                            txtLocationName.setText(getJsonToGson().getLocationList().get(getClosestLocation(Double.parseDouble(edtLat.getText().toString()), Double.parseDouble(edtLng.getText().toString()))).getLabel());
+                            txtLocationName.setVisibility(View.VISIBLE);
+                            Picasso.get().load(getJsonToGson().getLocationList().get(getClosestLocation(Double.parseDouble(edtLat.getText().toString()), Double.parseDouble(edtLng.getText().toString()))).getImage()).into(imgLocation);
+                            imgLocation.setVisibility(View.VISIBLE);
+                        }
                     }
+                } catch (NumberFormatException e) {
+                    Toast.makeText(getContext(),"You must introduce valid numbers",Toast.LENGTH_SHORT).show();
                 }
             }
         });
